@@ -1,8 +1,8 @@
 le = int(input())
 gs = list(map(int,input().split()))
 re = []
-for i in range(len(g)):
-    if g.count(gs[i]) > 1:
+for i in range(len(gs)):
+    if gs.count(gs[i]) > 1:
         if gs[i] not in re:
             re.append(gs[i])
 re.sort()
